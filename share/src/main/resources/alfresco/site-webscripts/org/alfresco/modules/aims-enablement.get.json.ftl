@@ -1,3 +1,3 @@
 {
-    "aims_enabled" : "${aimsEnabled}"
+    "aims_enabled" : ${aimsEnabled?c}
 }

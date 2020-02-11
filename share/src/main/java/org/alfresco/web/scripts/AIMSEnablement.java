@@ -67,7 +67,7 @@ public class AIMSEnablement extends DeclarativeWebScript
             }
         }
 
-        Map<String, Object> model = new HashMap<>();
+        Map<String, Object> model = new HashMap<String, Object>();
         model.put("aimsEnabled", enabled);
 
         return model;
