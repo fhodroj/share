@@ -1,0 +1,6 @@
+<webscript>
+   <shortname>AIMS Enablement</shortname>
+   <description>Check whether AIMS is enabled or not.</description>
+   <url>/modules/aims-enablement</url>
+   <format default="json">argument</format>
+</webscript>

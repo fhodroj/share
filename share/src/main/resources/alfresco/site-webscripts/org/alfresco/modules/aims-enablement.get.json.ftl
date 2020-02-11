@@ -1,0 +1,3 @@
+{
+    "aims_enabled" : "${aimsEnabled}"
+}

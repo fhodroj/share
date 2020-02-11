@@ -426,4 +426,7 @@
    <!-- AIMS config reader -->
    <bean id="aimsConfig" class="org.alfresco.web.site.servlet.config.AIMSConfig" init-method="init"/>
 
+   <!-- AIMS enablement checking Webscript -->
+   <bean id="webscript.org.alfresco.modules.aims-enablement.get" class="org.alfresco.web.scripts.AIMSEnablement" parent="webscript" />
+
 </beans>
